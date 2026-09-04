@@ -1,0 +1,2057 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="BYOU — Premium intimate apparel designed for comfort and confidence. Discover wireless bralettes, lace underwire bras, seamless panties, and luxurious sleepwear.">
+  <title>BYOU — Intimate Apparel | Comfort Redefined</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✿</text></svg>">
+</head>
+<body>
+
+  <!-- ========== ANNOUNCEMENT BAR ========== -->
+  <div class="announcement-bar" id="announcement-bar">
+    <span>Free shipping on orders over <span class="highlight">₹1,499</span> — Use code <span class="highlight">BYOU20</span> for 20% off your first order</span>
+  </div>
+
+
+  <!-- ========== HEADER ========== -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <!-- Logo -->
+      <a href="#" class="header__logo" id="logo">BYOU</a>
+
+      <!-- Navigation -->
+      <nav class="header__nav" id="main-nav" aria-label="Main navigation">
+        <a href="#categories" class="header__nav-link" id="nav-new">New In</a>
+        <a href="#featured" class="header__nav-link" id="nav-bras">Bras</a>
+        <a href="#categories" class="header__nav-link" id="nav-panties">Panties</a>
+        <a href="#editorial" class="header__nav-link" id="nav-sets">Sets</a>
+        <a href="#featured" class="header__nav-link" id="nav-sleepwear">Sleepwear</a>
+        <a href="#editorial" class="header__nav-link" id="nav-about">About</a>
+      </nav>
+
+      <!-- Actions -->
+      <div class="header__actions">
+        <button class="header__action-btn" id="search-btn" aria-label="Search">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"/>
+          </svg>
+        </button>
+        <button class="header__action-btn" id="account-btn" aria-label="Account">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"/>
+          </svg>
+        </button>
+        <button class="header__action-btn" id="cart-btn" aria-label="Shopping bag">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"/>
+          </svg>
+          <span class="cart-count" id="cart-count">2</span>
+        </button>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="header__menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- ========== HOMEPAGE CONTENT WRAPPER ========== -->
+  <div class="homepage-content" id="homepage-content">
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero" id="hero">
+      <div class="hero__bg">
+        <img src="images/hero-banner.jpg" alt="BYOU luxury intimate apparel collection featuring wireless bralettes in soft rose and nude tones" loading="eager">
+      </div>
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <span class="hero__tag">Autumn Collection 2026</span>
+        <h1 class="hero__title">Embrace Your <em>Natural</em> Beauty</h1>
+        <p class="hero__subtitle">Luxuriously soft intimate apparel crafted for everyday confidence. Designed to feel like a second skin.</p>
+        <div class="hero__cta-group">
+          <a href="#featured" class="btn btn--primary" id="hero-cta-primary">
+            <span>Shop Collection</span>
+          </a>
+          <a href="#editorial" class="btn btn--ghost" id="hero-cta-secondary">
+            Our Story <span class="btn-arrow">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ========== CATEGORIES ========== -->
+    <section class="categories" id="categories">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">Shop by Category</p>
+          <h2 class="section-title">Curated for You</h2>
+          <p class="section-subtitle">Discover our thoughtfully designed collections, from everyday essentials to luxurious sleepwear.</p>
+        </div>
+
+        <div class="categories__grid">
+          <!-- Category: Bras -->
+          <a href="#" class="category-card reveal reveal-delay-1" id="category-bras">
+            <img src="images/category-bras.jpg" alt="Bras collection" class="category-card__image">
+            <div class="category-card__overlay"></div>
+            <div class="category-card__content">
+              <h3 class="category-card__title">Bras</h3>
+              <span class="category-card__count">24 styles</span>
+            </div>
+            <div class="category-card__arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"/>
+              </svg>
+            </div>
+          </a>
+
+          <!-- Category: Panties -->
+          <a href="#" class="category-card reveal reveal-delay-2" id="category-panties">
+            <img src="images/category-panties.jpg" alt="Panties collection" class="category-card__image">
+            <div class="category-card__overlay"></div>
+            <div class="category-card__content">
+              <h3 class="category-card__title">Panties</h3>
+              <span class="category-card__count">36 styles</span>
+            </div>
+            <div class="category-card__arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"/>
+              </svg>
+            </div>
+          </a>
+
+          <!-- Category: Sets -->
+          <a href="#" class="category-card reveal reveal-delay-3" id="category-sets">
+            <img src="images/category-sets.jpg" alt="Matching sets collection" class="category-card__image">
+            <div class="category-card__overlay"></div>
+            <div class="category-card__content">
+              <h3 class="category-card__title">Sets</h3>
+              <span class="category-card__count">18 styles</span>
+            </div>
+            <div class="category-card__arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"/>
+              </svg>
+            </div>
+          </a>
+
+          <!-- Category: Sleepwear -->
+          <a href="#" class="category-card reveal reveal-delay-4" id="category-sleepwear">
+            <img src="images/category-sleepwear.jpg" alt="Sleepwear collection" class="category-card__image">
+            <div class="category-card__overlay"></div>
+            <div class="category-card__content">
+              <h3 class="category-card__title">Sleepwear</h3>
+              <span class="category-card__count">12 styles</span>
+            </div>
+            <div class="category-card__arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"/>
+              </svg>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ========== FEATURED PRODUCTS ========== -->
+    <section class="featured" id="featured">
+      <div class="container">
+        <div class="featured__header reveal">
+          <div class="section-header">
+            <p class="section-eyebrow">Bestsellers</p>
+            <h2 class="section-title">Most Loved Styles</h2>
+          </div>
+          <a href="#" class="btn btn--ghost" id="view-all-btn">View All <span class="btn-arrow">→</span></a>
+        </div>
+
+        <div class="products__grid">
+          <!-- Product 1: Wireless Bralette -->
+          <div class="product-card reveal reveal-delay-1" id="product-1" data-product-id="1">
+            <div class="product-card__image-wrapper">
+              <img src="images/product-bralette.jpg" alt="Cloud-Soft Wireless Bralette in blush pink" class="product-card__image" loading="lazy">
+              <span class="product-card__badge product-card__badge--bestseller">Bestseller</span>
+              <button class="product-card__wishlist" aria-label="Add to wishlist">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"/>
+                </svg>
+              </button>
+              <div class="product-card__quick-add" data-product-id="1">+ Quick Add</div>
+            </div>
+            <div class="product-card__info">
+              <h3 class="product-card__name">Cloud-Soft Wireless Bralette</h3>
+              <p class="product-card__category">Everyday Comfort</p>
+              <div class="product-card__price-row">
+                <span class="product-card__price">₹1,299</span>
+              </div>
+              <div class="product-card__colors">
+                <span class="product-card__color-swatch" style="background: #D4A0A0;" title="Blush"></span>
+                <span class="product-card__color-swatch" style="background: #E8D8C4;" title="Champagne"></span>
+                <span class="product-card__color-swatch" style="background: #2C1810;" title="Espresso"></span>
+                <span class="product-card__color-swatch" style="background: #A8B5A0;" title="Sage"></span>
+              </div>
+              <div class="product-card__rating">
+                <span class="product-card__stars">★★★★★</span>
+                <span>(342)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 2: Lace Underwire -->
+          <div class="product-card reveal reveal-delay-2" id="product-2" data-product-id="2">
+            <div class="product-card__image-wrapper">
+              <img src="images/product-underwire.jpg" alt="Étoile Lace Underwire Bra in champagne gold" class="product-card__image" loading="lazy">
+              <span class="product-card__badge product-card__badge--new">New</span>
+              <button class="product-card__wishlist" aria-label="Add to wishlist">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"/>
+                </svg>
+              </button>
+              <div class="product-card__quick-add" data-product-id="2">+ Quick Add</div>
+            </div>
+            <div class="product-card__info">
+              <h3 class="product-card__name">Étoile Lace Underwire</h3>
+              <p class="product-card__category">Elegant Support</p>
+              <div class="product-card__price-row">
+                <span class="product-card__price">₹1,899</span>
+              </div>
+              <div class="product-card__colors">
+                <span class="product-card__color-swatch" style="background: #E8D8C4;" title="Champagne"></span>
+                <span class="product-card__color-swatch" style="background: #D4A0A0;" title="Rose"></span>
+                <span class="product-card__color-swatch" style="background: #1A1A1A;" title="Noir"></span>
+              </div>
+              <div class="product-card__rating">
+                <span class="product-card__stars">★★★★★</span>
+                <span>(128)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 3: Seamless Hipster -->
+          <div class="product-card reveal reveal-delay-3" id="product-3" data-product-id="3">
+            <div class="product-card__image-wrapper">
+              <img src="images/product-hipster.jpg" alt="Seamless Hipster 3-Pack in nude, blush, and sage" class="product-card__image" loading="lazy">
+              <span class="product-card__badge product-card__badge--sale">-25%</span>
+              <button class="product-card__wishlist" aria-label="Add to wishlist">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"/>
+                </svg>
+              </button>
+              <div class="product-card__quick-add" data-product-id="3">+ Quick Add</div>
+            </div>
+            <div class="product-card__info">
+              <h3 class="product-card__name">Seamless Hipster 3-Pack</h3>
+              <p class="product-card__category">Everyday Essentials</p>
+              <div class="product-card__price-row">
+                <span class="product-card__price">₹899</span>
+                <span class="product-card__price--original">₹1,199</span>
+              </div>
+              <div class="product-card__colors">
+                <span class="product-card__color-swatch" style="background: #E8D8C4;" title="Nude"></span>
+                <span class="product-card__color-swatch" style="background: #D4A0A0;" title="Blush"></span>
+                <span class="product-card__color-swatch" style="background: #A8B5A0;" title="Sage"></span>
+              </div>
+              <div class="product-card__rating">
+                <span class="product-card__stars">★★★★☆</span>
+                <span>(256)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 4: Silk Slip Dress -->
+          <div class="product-card reveal reveal-delay-4" id="product-4" data-product-id="4">
+            <div class="product-card__image-wrapper">
+              <img src="images/product-slip-dress.jpg" alt="Velvet Dusk Silk Slip Dress in mulberry" class="product-card__image" loading="lazy">
+              <span class="product-card__badge product-card__badge--new">New</span>
+              <button class="product-card__wishlist" aria-label="Add to wishlist">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"/>
+                </svg>
+              </button>
+              <div class="product-card__quick-add" data-product-id="4">+ Quick Add</div>
+            </div>
+            <div class="product-card__info">
+              <h3 class="product-card__name">Velvet Dusk Silk Slip</h3>
+              <p class="product-card__category">Luxe Sleepwear</p>
+              <div class="product-card__price-row">
+                <span class="product-card__price">₹2,499</span>
+              </div>
+              <div class="product-card__colors">
+                <span class="product-card__color-swatch" style="background: #7A3B4E;" title="Mulberry"></span>
+                <span class="product-card__color-swatch" style="background: #1A1A1A;" title="Noir"></span>
+                <span class="product-card__color-swatch" style="background: #E8D8C4;" title="Champagne"></span>
+              </div>
+              <div class="product-card__rating">
+                <span class="product-card__stars">★★★★★</span>
+                <span>(89)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ========== VALUE PROPOSITIONS ========== -->
+    <section class="values-strip" id="values">
+      <div class="container">
+        <div class="values-strip__grid">
+          <!-- Value 1 -->
+          <div class="value-item reveal reveal-delay-1" id="value-shipping">
+            <div class="value-item__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12"/>
+              </svg>
+            </div>
+            <h3 class="value-item__title">Free Shipping</h3>
+            <p class="value-item__desc">On all orders above ₹1,499</p>
+          </div>
+
+          <!-- Value 2 -->
+          <div class="value-item reveal reveal-delay-2" id="value-returns">
+            <div class="value-item__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182"/>
+              </svg>
+            </div>
+            <h3 class="value-item__title">Easy Returns</h3>
+            <p class="value-item__desc">30-day hassle-free returns</p>
+          </div>
+
+          <!-- Value 3 -->
+          <div class="value-item reveal reveal-delay-3" id="value-sustainable">
+            <div class="value-item__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12.75 3.03v.568c0 .334.148.65.405.864l1.068.89c.442.369.535 1.01.216 1.49l-.51.766a2.25 2.25 0 01-1.161.886l-.143.048a1.107 1.107 0 00-.57 1.664c.369.555.169 1.307-.427 1.605L9 13.125l.423 1.059a.956.956 0 01-1.652.928l-.679-.906a1.125 1.125 0 00-1.906.172L4.5 15.75l-.612.153M12.75 3.031a9 9 0 10-8.862 12.872M12.75 3.031a9 9 0 016.69 14.036m0 0l-.177-.529A2.25 2.25 0 0017.128 15H16.5l-.324-.324a1.453 1.453 0 00-2.328.377l-.036.073a1.586 1.586 0 01-.982.816l-.99.282c-.55.157-.894.702-.8 1.267l.073.438c.08.474.49.821.97.821.846 0 1.598.542 1.865 1.345l.215.643m5.276-3.67a9.012 9.012 0 01-5.276 3.67m0 0a9 9 0 01-10.275-4.835M15.75 9c0 .896-.393 1.7-1.016 2.25"/>
+              </svg>
+            </div>
+            <h3 class="value-item__title">Sustainable</h3>
+            <p class="value-item__desc">Eco-friendly fabrics &amp; packaging</p>
+          </div>
+
+          <!-- Value 4 -->
+          <div class="value-item reveal reveal-delay-4" id="value-quality">
+            <div class="value-item__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z"/>
+              </svg>
+            </div>
+            <h3 class="value-item__title">Premium Quality</h3>
+            <p class="value-item__desc">Crafted with love &amp; care</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ========== EDITORIAL / BRAND STORY ========== -->
+    <section class="editorial" id="editorial">
+      <div class="container">
+        <div class="editorial__inner">
+          <!-- Image -->
+          <div class="editorial__image-wrapper reveal">
+            <img src="images/category-sets.jpg" alt="BYOU brand story — champagne silk lingerie set" loading="lazy">
+            <div class="editorial__image-accent"></div>
+          </div>
+
+          <!-- Content -->
+          <div class="editorial__content reveal reveal-delay-2">
+            <span class="editorial__tag">Our Philosophy</span>
+            <h2 class="editorial__title">Designed for the <em>Real</em> You</h2>
+            <p class="editorial__text">
+              At BYOU, we believe that true beauty starts with comfort. Every piece in our collection is thoughtfully designed using premium, sustainably sourced fabrics that feel like a second skin. No itchy tags, no uncomfortable wires — just pure, luxurious softness.
+            </p>
+
+            <div class="editorial__features">
+              <div class="editorial__feature">
+                <svg class="editorial__feature-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.5 12.75l6 6 9-13.5"/>
+                </svg>
+                <span class="editorial__feature-text">OEKO-TEX® Certified</span>
+              </div>
+              <div class="editorial__feature">
+                <svg class="editorial__feature-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.5 12.75l6 6 9-13.5"/>
+                </svg>
+                <span class="editorial__feature-text">Inclusive Size Range</span>
+              </div>
+              <div class="editorial__feature">
+                <svg class="editorial__feature-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.5 12.75l6 6 9-13.5"/>
+                </svg>
+                <span class="editorial__feature-text">Tag-Free Comfort</span>
+              </div>
+              <div class="editorial__feature">
+                <svg class="editorial__feature-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.5 12.75l6 6 9-13.5"/>
+                </svg>
+                <span class="editorial__feature-text">Recyclable Packaging</span>
+              </div>
+            </div>
+
+            <a href="#" class="btn btn--outline" id="editorial-cta">
+              <span>Learn More</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ========== TESTIMONIALS ========== -->
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-eyebrow">Reviews</p>
+          <h2 class="section-title">What Our Customers Say</h2>
+          <p class="section-subtitle">Real stories from real women who found their perfect fit.</p>
+        </div>
+
+        <div class="testimonials__grid">
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card reveal reveal-delay-1" id="testimonial-1">
+            <span class="testimonial-card__quote-mark">"</span>
+            <div class="testimonial-card__stars">★★★★★</div>
+            <p class="testimonial-card__text">
+              "I've never worn a bralette this comfortable. It honestly feels like I'm wearing nothing. The fabric is incredibly soft and the fit is absolutely perfect."
+            </p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">P</div>
+              <div class="testimonial-card__author-info">
+                <span class="testimonial-card__author-name">Priya M.</span>
+                <span class="testimonial-card__author-detail">Cloud-Soft Wireless Bralette</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card reveal reveal-delay-2" id="testimonial-2">
+            <span class="testimonial-card__quote-mark">"</span>
+            <div class="testimonial-card__stars">★★★★★</div>
+            <p class="testimonial-card__text">
+              "Finally, a brand that understands that elegance and comfort aren't mutually exclusive. The Étoile Lace set is stunning and stays in place all day long."
+            </p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">A</div>
+              <div class="testimonial-card__author-info">
+                <span class="testimonial-card__author-name">Ananya R.</span>
+                <span class="testimonial-card__author-detail">Étoile Lace Set</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonial-card reveal reveal-delay-3" id="testimonial-3">
+            <span class="testimonial-card__quote-mark">"</span>
+            <div class="testimonial-card__stars">★★★★★</div>
+            <p class="testimonial-card__text">
+              "The silk slip dress is everything. I wear it to sleep, to lounge, and honestly, it's so gorgeous I would wear it out. Worth every rupee!"
+            </p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">S</div>
+              <div class="testimonial-card__author-info">
+                <span class="testimonial-card__author-name">Sneha K.</span>
+                <span class="testimonial-card__author-detail">Velvet Dusk Silk Slip</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ========== NEWSLETTER ========== -->
+    <section class="newsletter" id="newsletter">
+      <div class="container">
+        <div class="newsletter__inner reveal">
+          <p class="section-eyebrow">Stay Connected</p>
+          <h2 class="section-title">Join the BYOU Family</h2>
+          <p class="section-subtitle">Subscribe for exclusive early access, styling tips, and 15% off your first order.</p>
+          <form class="newsletter__form" id="newsletter-form" onsubmit="return false;">
+            <input type="email" class="newsletter__input" id="newsletter-email" placeholder="Enter your email address" aria-label="Email address" required>
+            <button type="submit" class="newsletter__btn" id="newsletter-submit">Subscribe</button>
+          </form>
+          <p class="newsletter__terms">By subscribing, you agree to our Privacy Policy. Unsubscribe anytime.</p>
+        </div>
+      </div>
+    </section>
+
+  </div><!-- /.homepage-content -->
+
+
+  <!-- ========== CART PAGE VIEW ========== -->
+  <div class="page-view" id="cart-view">
+    <div class="container">
+      <div class="page-view__breadcrumb">
+        <a href="#" onclick="BYOU.navigateTo('home'); return false;">Home</a>
+        <span class="separator">›</span>
+        <span class="current">Shopping Bag</span>
+      </div>
+      <h2 class="page-view__title">Shopping Bag</h2>
+      <div class="cart-layout" id="cart-layout">
+        <!-- Cart items rendered by JS -->
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ========== CHECKOUT PAGE VIEW ========== -->
+  <div class="page-view" id="checkout-view">
+    <div class="container">
+      <div class="page-view__breadcrumb">
+        <a href="#" onclick="BYOU.navigateTo('home'); return false;">Home</a>
+        <span class="separator">›</span>
+        <a href="#" onclick="BYOU.navigateTo('cart'); return false;">Shopping Bag</a>
+        <span class="separator">›</span>
+        <span class="current">Checkout</span>
+      </div>
+      <h2 class="page-view__title">Checkout</h2>
+      <div class="checkout-layout">
+        <!-- Left: Forms -->
+        <div class="checkout-forms">
+          <!-- Shipping -->
+          <div class="checkout-section">
+            <h3 class="checkout-section__title">
+              <span class="step-num">1</span> Shipping Address
+            </h3>
+            <div class="checkout-form__grid">
+              <div class="checkout-form__field">
+                <label class="checkout-form__label" for="checkout-fname">First Name</label>
+                <input type="text" class="checkout-form__input" id="checkout-fname" placeholder="Priya" required>
+              </div>
+              <div class="checkout-form__field">
+                <label class="checkout-form__label" for="checkout-lname">Last Name</label>
+                <input type="text" class="checkout-form__input" id="checkout-lname" placeholder="Sharma" required>
+              </div>
+              <div class="checkout-form__field checkout-form__field--full">
+                <label class="checkout-form__label" for="checkout-phone">Phone Number</label>
+                <input type="tel" class="checkout-form__input" id="checkout-phone" placeholder="+91 98765 43210" required>
+              </div>
+              <div class="checkout-form__field checkout-form__field--full">
+                <label class="checkout-form__label" for="checkout-address">Address</label>
+                <input type="text" class="checkout-form__input" id="checkout-address" placeholder="House no., Street, Landmark" required>
+              </div>
+              <div class="checkout-form__field">
+                <label class="checkout-form__label" for="checkout-city">City</label>
+                <input type="text" class="checkout-form__input" id="checkout-city" placeholder="Mumbai" required>
+              </div>
+              <div class="checkout-form__field">
+                <label class="checkout-form__label" for="checkout-state">State</label>
+                <input type="text" class="checkout-form__input" id="checkout-state" placeholder="Maharashtra" required>
+              </div>
+              <div class="checkout-form__field">
+                <label class="checkout-form__label" for="checkout-pincode">Pincode</label>
+                <input type="text" class="checkout-form__input" id="checkout-pincode" placeholder="400001" required>
+              </div>
+            </div>
+          </div>
+
+          <!-- Payment -->
+          <div class="checkout-section">
+            <h3 class="checkout-section__title">
+              <span class="step-num">2</span> Payment Method
+            </h3>
+            <div class="payment-methods" id="payment-methods">
+              <div class="payment-method selected" data-method="cod" onclick="BYOU.selectPayment(this)">
+                <div class="payment-method__radio"></div>
+                <div class="payment-method__icon">💵</div>
+                <div class="payment-method__info">
+                  <div class="payment-method__name">Cash on Delivery</div>
+                  <div class="payment-method__desc">Pay when your order arrives</div>
+                </div>
+              </div>
+              <div class="payment-method" data-method="upi" onclick="BYOU.selectPayment(this)">
+                <div class="payment-method__radio"></div>
+                <div class="payment-method__icon">📱</div>
+                <div class="payment-method__info">
+                  <div class="payment-method__name">UPI</div>
+                  <div class="payment-method__desc">Google Pay, PhonePe, Paytm</div>
+                </div>
+              </div>
+              <div class="payment-method" data-method="card" onclick="BYOU.selectPayment(this)">
+                <div class="payment-method__radio"></div>
+                <div class="payment-method__icon">💳</div>
+                <div class="payment-method__info">
+                  <div class="payment-method__name">Credit / Debit Card</div>
+                  <div class="payment-method__desc">Visa, Mastercard, RuPay</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Order Summary -->
+        <div class="checkout-summary" id="checkout-summary">
+          <!-- Rendered by JS -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ========== ORDER SUCCESS VIEW ========== -->
+  <div class="page-view" id="success-view">
+    <div class="container">
+      <div class="order-success" id="order-success-content">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ========== LOGIN MODAL ========== -->
+  <div class="login-overlay" id="login-overlay">
+    <div class="login-modal">
+      <button class="login-modal__close" id="login-close" aria-label="Close login">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </button>
+      <div class="login-modal__brand">BYOU</div>
+      <p class="login-modal__subtitle">Sign in to your account</p>
+      <form class="login-modal__form" id="login-form" onsubmit="return false;">
+        <div class="login-modal__field">
+          <label class="login-modal__label" for="login-username">Username</label>
+          <input type="text" class="login-modal__input" id="login-username" placeholder="Enter your username" autocomplete="username">
+        </div>
+        <div class="login-modal__field">
+          <label class="login-modal__label" for="login-password">Password</label>
+          <input type="password" class="login-modal__input" id="login-password" placeholder="Enter your password" autocomplete="current-password">
+        </div>
+        <div class="login-modal__error" id="login-error"></div>
+        <button type="submit" class="login-modal__submit" id="login-submit">
+          <span>Sign In</span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+
+  <!-- ========== TOAST ========== -->
+  <div class="toast" id="toast">
+    <svg class="toast__icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.5 12.75l6 6 9-13.5"/>
+    </svg>
+    <span id="toast-message"></span>
+  </div>
+
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <!-- Brand Column -->
+        <div class="footer__col">
+          <a href="#" class="footer__logo">BYOU</a>
+          <p class="footer__brand-desc">
+            Premium intimate apparel designed for everyday confidence. Sustainably crafted, luxuriously soft.
+          </p>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link" aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <rect x="2" y="2" width="20" height="20" rx="5"/>
+                <circle cx="12" cy="12" r="5"/>
+                <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/>
+              </svg>
+            </a>
+            <a href="#" class="footer__social-link" aria-label="Pinterest">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M8 21c1-3 1.5-5 2-7.5.5-2 1-3.5 2-3.5s2 1.5 2 3-1 3-1 4.5.5 2.5 2 2.5c3 0 4-3.5 4-6.5 0-4-3-6.5-7-6.5-4.5 0-7.5 3-7.5 7 0 1.5.5 3 1.5 3.5"/>
+              </svg>
+            </a>
+            <a href="#" class="footer__social-link" aria-label="Twitter">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M4 4l11.733 16h4.267l-11.733-16zM4 20l6.768-8M20 4l-6.768 8"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Shop Column -->
+        <div class="footer__col">
+          <h4 class="footer__heading">Shop</h4>
+          <ul class="footer__links">
+            <li><a href="#" class="footer__link">New Arrivals</a></li>
+            <li><a href="#" class="footer__link">Bras</a></li>
+            <li><a href="#" class="footer__link">Panties</a></li>
+            <li><a href="#" class="footer__link">Sets</a></li>
+            <li><a href="#" class="footer__link">Sleepwear</a></li>
+            <li><a href="#" class="footer__link">Sale</a></li>
+          </ul>
+        </div>
+
+        <!-- Help Column -->
+        <div class="footer__col">
+          <h4 class="footer__heading">Help</h4>
+          <ul class="footer__links">
+            <li><a href="#" class="footer__link">Size Guide</a></li>
+            <li><a href="#" class="footer__link">Shipping Info</a></li>
+            <li><a href="#" class="footer__link">Returns &amp; Exchanges</a></li>
+            <li><a href="#" class="footer__link">FAQ</a></li>
+            <li><a href="#" class="footer__link">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- About Column -->
+        <div class="footer__col">
+          <h4 class="footer__heading">About</h4>
+          <ul class="footer__links">
+            <li><a href="#" class="footer__link">Our Story</a></li>
+            <li><a href="#" class="footer__link">Sustainability</a></li>
+            <li><a href="#" class="footer__link">Careers</a></li>
+            <li><a href="#" class="footer__link">Privacy Policy</a></li>
+            <li><a href="#" class="footer__link">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <span>© 2026 BYOU Intimate Apparel. All rights reserved.</span>
+        <div class="footer__payment-icons">
+          <span class="footer__payment-icon">Visa</span>
+          <span class="footer__payment-icon">Mastercard</span>
+          <span class="footer__payment-icon">UPI</span>
+          <span class="footer__payment-icon">PayPal</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ========== JAVASCRIPT ========== -->
+  <script>
+  (() => {
+    'use strict';
+
+    // ============================
+    // PRODUCT CATALOG
+    // ============================
+    const PRODUCTS = {
+      1: {
+        id: 1,
+        name: 'Cloud-Soft Wireless Bralette',
+        category: 'Everyday Comfort',
+        price: 1299,
+        originalPrice: null,
+        image: 'images/product-bralette.jpg',
+        color: 'Blush',
+        colorHex: '#D4A0A0',
+        size: 'M'
+      },
+      2: {
+        id: 2,
+        name: 'Étoile Lace Underwire',
+        category: 'Elegant Support',
+        price: 1899,
+        originalPrice: null,
+        image: 'images/product-underwire.jpg',
+        color: 'Champagne',
+        colorHex: '#E8D8C4',
+        size: 'M'
+      },
+      3: {
+        id: 3,
+        name: 'Seamless Hipster 3-Pack',
+        category: 'Everyday Essentials',
+        price: 899,
+        originalPrice: 1199,
+        image: 'images/product-hipster.jpg',
+        color: 'Nude',
+        colorHex: '#E8D8C4',
+        size: 'M'
+      },
+      4: {
+        id: 4,
+        name: 'Velvet Dusk Silk Slip',
+        category: 'Luxe Sleepwear',
+        price: 2499,
+        originalPrice: null,
+        image: 'images/product-slip-dress.jpg',
+        color: 'Mulberry',
+        colorHex: '#7A3B4E',
+        size: 'M'
+      }
+    };
+
+    // ============================
+    // APP STATE
+    // ============================
+    const BYOU = {
+      currentView: 'home',
+      pendingAction: null,    // callback queued until login
+      discountApplied: false,
+      discountPercent: 20,
+
+      // ---------- AUTH ----------
+      isLoggedIn() {
+        return sessionStorage.getItem('byou_user') === 'admin';
+      },
+
+      login(username, password) {
+        if (username === 'admin' && password === 'admin') {
+          sessionStorage.setItem('byou_user', 'admin');
+          this.updateAuthUI();
+          this.closeLoginModal();
+          this.showToast('Welcome back, Admin!');
+          if (this.pendingAction) {
+            const action = this.pendingAction;
+            this.pendingAction = null;
+            action();
+          }
+          return true;
+        }
+        return false;
+      },
+
+      logout() {
+        sessionStorage.removeItem('byou_user');
+        this.updateAuthUI();
+        this.closeUserDropdown();
+        this.navigateTo('home');
+        this.showToast('You\'ve been signed out');
+      },
+
+      updateAuthUI() {
+        const btn = document.getElementById('account-btn');
+        if (this.isLoggedIn()) {
+          btn.innerHTML = '<span class="user-badge">A</span>';
+        } else {
+          btn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"/>
+          </svg>`;
+        }
+      },
+
+      openLoginModal() {
+        document.getElementById('login-overlay').classList.add('active');
+        document.getElementById('login-username').value = '';
+        document.getElementById('login-password').value = '';
+        document.getElementById('login-error').textContent = '';
+        document.getElementById('login-username').classList.remove('error');
+        document.getElementById('login-password').classList.remove('error');
+        setTimeout(() => document.getElementById('login-username').focus(), 300);
+      },
+
+      closeLoginModal() {
+        document.getElementById('login-overlay').classList.remove('active');
+      },
+
+      toggleUserDropdown() {
+        let dropdown = document.getElementById('user-dropdown');
+        if (!dropdown) {
+          dropdown = document.createElement('div');
+          dropdown.id = 'user-dropdown';
+          dropdown.className = 'user-dropdown';
+          dropdown.innerHTML = `
+            <div class="user-dropdown__header">
+              <div class="user-dropdown__name">Admin</div>
+              <div class="user-dropdown__email">admin@byou.com</div>
+            </div>
+            <button class="user-dropdown__item" onclick="BYOU.logout()">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15m3 0l3-3m0 0l-3-3m3 3H9"/>
+              </svg>
+              Sign Out
+            </button>`;
+          document.getElementById('account-btn').appendChild(dropdown);
+        }
+        dropdown.classList.toggle('active');
+      },
+
+      closeUserDropdown() {
+        const dropdown = document.getElementById('user-dropdown');
+        if (dropdown) dropdown.classList.remove('active');
+      },
+
+      // ---------- CART ----------
+      getCart() {
+        try {
+          return JSON.parse(sessionStorage.getItem('byou_cart') || '[]');
+        } catch { return []; }
+      },
+
+      saveCart(cart) {
+        sessionStorage.setItem('byou_cart', JSON.stringify(cart));
+        this.updateCartCount();
+      },
+
+      addToCart(productId) {
+        const product = PRODUCTS[productId];
+        if (!product) return;
+
+        const cart = this.getCart();
+        const existing = cart.find(item => item.id === productId);
+        if (existing) {
+          existing.qty += 1;
+        } else {
+          cart.push({ id: productId, qty: 1, size: product.size, color: product.color });
+        }
+        this.saveCart(cart);
+        this.showToast(`${product.name} added to bag`);
+      },
+
+      removeFromCart(productId) {
+        let cart = this.getCart();
+        cart = cart.filter(item => item.id !== productId);
+        this.saveCart(cart);
+        this.renderCartPage();
+      },
+
+      updateQty(productId, delta) {
+        const cart = this.getCart();
+        const item = cart.find(i => i.id === productId);
+        if (!item) return;
+        item.qty = Math.max(1, item.qty + delta);
+        this.saveCart(cart);
+        this.renderCartPage();
+      },
+
+      updateCartCount() {
+        const cart = this.getCart();
+        const total = cart.reduce((sum, item) => sum + item.qty, 0);
+        const el = document.getElementById('cart-count');
+        el.textContent = total;
+        el.style.display = total > 0 ? 'flex' : 'none';
+      },
+
+      getCartSubtotal() {
+        const cart = this.getCart();
+        return cart.reduce((sum, item) => {
+          const product = PRODUCTS[item.id];
+          return sum + (product ? product.price * item.qty : 0);
+        }, 0);
+      },
+
+      getShippingCost(subtotal) {
+        return subtotal >= 1499 ? 0 : 99;
+      },
+
+      getDiscount(subtotal) {
+        return this.discountApplied ? Math.round(subtotal * this.discountPercent / 100) : 0;
+      },
+
+      formatPrice(amount) {
+        return '₹' + amount.toLocaleString('en-IN');
+      },
+
+      applyCoupon() {
+        const input = document.getElementById('coupon-input');
+        if (!input) return;
+        const code = input.value.trim().toUpperCase();
+        if (code === 'BYOU20') {
+          this.discountApplied = true;
+          this.showToast('Coupon BYOU20 applied — 20% off!');
+          this.renderCartPage();
+        } else {
+          this.showToast('Invalid coupon code');
+        }
+      },
+
+      // ---------- VIEWS ----------
+      navigateTo(view) {
+        const homepage = document.getElementById('homepage-content');
+        const cartView = document.getElementById('cart-view');
+        const checkoutView = document.getElementById('checkout-view');
+        const successView = document.getElementById('success-view');
+
+        // Hide all
+        homepage.classList.add('hidden');
+        cartView.classList.remove('active');
+        checkoutView.classList.remove('active');
+        successView.classList.remove('active');
+
+        this.currentView = view;
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+
+        switch (view) {
+          case 'home':
+            homepage.classList.remove('hidden');
+            // Re-observe reveal elements
+            document.querySelectorAll('.reveal:not(.visible)').forEach(el => revealObserver.observe(el));
+            break;
+          case 'cart':
+            cartView.classList.add('active');
+            this.renderCartPage();
+            break;
+          case 'checkout':
+            checkoutView.classList.add('active');
+            this.renderCheckoutSummary();
+            break;
+          case 'success':
+            successView.classList.add('active');
+            break;
+        }
+      },
+
+      // ---------- CART PAGE RENDER ----------
+      renderCartPage() {
+        const layout = document.getElementById('cart-layout');
+        const cart = this.getCart();
+
+        if (cart.length === 0) {
+          layout.innerHTML = `
+            <div class="cart-empty">
+              <div class="cart-empty__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"/>
+                </svg>
+              </div>
+              <h3 class="cart-empty__title">Your bag is empty</h3>
+              <p class="cart-empty__text">Looks like you haven't added anything yet. Discover our curated collections.</p>
+              <button class="btn btn--primary" onclick="BYOU.navigateTo('home')"><span>Continue Shopping</span></button>
+            </div>`;
+          return;
+        }
+
+        const subtotal = this.getCartSubtotal();
+        const shipping = this.getShippingCost(subtotal);
+        const discount = this.getDiscount(subtotal);
+        const total = subtotal - discount + shipping;
+
+        let itemsHTML = '<div class="cart-items">';
+        cart.forEach((item, i) => {
+          const p = PRODUCTS[item.id];
+          if (!p) return;
+          const lineTotal = p.price * item.qty;
+          itemsHTML += `
+            <div class="cart-item" style="animation-delay: ${i * 80}ms">
+              <div class="cart-item__image">
+                <img src="${p.image}" alt="${p.name}">
+              </div>
+              <div class="cart-item__details">
+                <h4 class="cart-item__name">${p.name}</h4>
+                <div class="cart-item__meta">
+                  <span><span class="color-dot" style="background:${p.colorHex}"></span> ${item.color || p.color}</span>
+                  <span>Size: ${item.size || p.size}</span>
+                </div>
+                <div class="cart-item__price">${this.formatPrice(p.price)}</div>
+              </div>
+              <div class="cart-item__actions">
+                <button class="cart-item__remove" onclick="BYOU.removeFromCart(${p.id})">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0"/>
+                  </svg>
+                  Remove
+                </button>
+                <div class="qty-control">
+                  <button class="qty-control__btn" onclick="BYOU.updateQty(${p.id}, -1)" ${item.qty <= 1 ? 'disabled' : ''}>−</button>
+                  <span class="qty-control__value">${item.qty}</span>
+                  <button class="qty-control__btn" onclick="BYOU.updateQty(${p.id}, 1)">+</button>
+                </div>
+                <div class="cart-item__line-total">${this.formatPrice(lineTotal)}</div>
+              </div>
+            </div>`;
+        });
+        itemsHTML += '</div>';
+
+        const summaryHTML = `
+          <div class="cart-summary">
+            <h3 class="cart-summary__title">Order Summary</h3>
+            <div class="cart-summary__row">
+              <span class="cart-summary__row-label">Subtotal (${cart.reduce((s, i) => s + i.qty, 0)} items)</span>
+              <span class="cart-summary__row-value">${this.formatPrice(subtotal)}</span>
+            </div>
+            <div class="cart-summary__row cart-summary__row--shipping">
+              <span class="cart-summary__row-label">Shipping</span>
+              <span class="cart-summary__row-value">${shipping === 0 ? 'FREE' : this.formatPrice(shipping)}</span>
+            </div>
+            ${discount > 0 ? `
+            <div class="cart-summary__row cart-summary__row--discount">
+              <span class="cart-summary__row-label">Discount (BYOU20)</span>
+              <span class="cart-summary__row-value">-${this.formatPrice(discount)}</span>
+            </div>` : ''}
+            <div class="cart-summary__coupon">
+              <input type="text" class="cart-summary__coupon-input" id="coupon-input" placeholder="Coupon code" value="${this.discountApplied ? 'BYOU20' : ''}" ${this.discountApplied ? 'disabled' : ''}>
+              <button class="cart-summary__coupon-btn" onclick="BYOU.applyCoupon()" ${this.discountApplied ? 'disabled' : ''}>
+                ${this.discountApplied ? 'Applied ✓' : 'Apply'}
+              </button>
+            </div>
+            <hr class="cart-summary__divider">
+            <div class="cart-summary__row cart-summary__row--total">
+              <span class="cart-summary__row-label">Total</span>
+              <span class="cart-summary__row-value">${this.formatPrice(total)}</span>
+            </div>
+            <button class="cart-summary__checkout-btn" onclick="BYOU.proceedToCheckout()">
+              <span>Proceed to Checkout</span>
+            </button>
+            <a href="#" class="cart-summary__continue" onclick="BYOU.navigateTo('home'); return false;">← Continue Shopping</a>
+            <div class="cart-summary__secure">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"/>
+              </svg>
+              Secure Checkout — 256-bit SSL
+            </div>
+          </div>`;
+
+        layout.innerHTML = itemsHTML + summaryHTML;
+      },
+
+      proceedToCheckout() {
+        if (!this.isLoggedIn()) {
+          this.pendingAction = () => this.navigateTo('checkout');
+          this.openLoginModal();
+          return;
+        }
+        this.navigateTo('checkout');
+      },
+
+      // ---------- CHECKOUT RENDER ----------
+      renderCheckoutSummary() {
+        const el = document.getElementById('checkout-summary');
+        const cart = this.getCart();
+        const subtotal = this.getCartSubtotal();
+        const shipping = this.getShippingCost(subtotal);
+        const discount = this.getDiscount(subtotal);
+        const total = subtotal - discount + shipping;
+
+        let itemsHTML = '';
+        cart.forEach(item => {
+          const p = PRODUCTS[item.id];
+          if (!p) return;
+          itemsHTML += `
+            <div class="checkout-summary__item">
+              <div class="checkout-summary__item-img"><img src="${p.image}" alt="${p.name}"></div>
+              <div class="checkout-summary__item-info">
+                <div class="checkout-summary__item-name">${p.name}</div>
+                <div class="checkout-summary__item-meta">Qty: ${item.qty} · ${item.color || p.color} · ${item.size || p.size}</div>
+              </div>
+              <div class="checkout-summary__item-price">${this.formatPrice(p.price * item.qty)}</div>
+            </div>`;
+        });
+
+        el.innerHTML = `
+          <h3 class="checkout-summary__title">Your Order</h3>
+          <div class="checkout-summary__items">${itemsHTML}</div>
+          <div class="cart-summary__row">
+            <span class="cart-summary__row-label">Subtotal</span>
+            <span class="cart-summary__row-value">${this.formatPrice(subtotal)}</span>
+          </div>
+          <div class="cart-summary__row cart-summary__row--shipping">
+            <span class="cart-summary__row-label">Shipping</span>
+            <span class="cart-summary__row-value">${shipping === 0 ? 'FREE' : this.formatPrice(shipping)}</span>
+          </div>
+          ${discount > 0 ? `
+          <div class="cart-summary__row cart-summary__row--discount">
+            <span class="cart-summary__row-label">Discount</span>
+            <span class="cart-summary__row-value">-${this.formatPrice(discount)}</span>
+          </div>` : ''}
+          <hr class="cart-summary__divider">
+          <div class="cart-summary__row cart-summary__row--total">
+            <span class="cart-summary__row-label">Total</span>
+            <span class="cart-summary__row-value">${this.formatPrice(total)}</span>
+          </div>
+          <button class="checkout-summary__place-btn" onclick="BYOU.placeOrder()">
+            <span>Place Order — ${this.formatPrice(total)}</span>
+          </button>
+          <a href="#" class="checkout-summary__back" onclick="BYOU.navigateTo('cart'); return false;">← Back to Cart</a>`;
+      },
+
+      selectPayment(el) {
+        document.querySelectorAll('.payment-method').forEach(m => m.classList.remove('selected'));
+        el.classList.add('selected');
+      },
+
+      // ---------- PLACE ORDER ----------
+      placeOrder() {
+        // Validate form
+        const fields = ['checkout-fname', 'checkout-lname', 'checkout-phone', 'checkout-address', 'checkout-city', 'checkout-state', 'checkout-pincode'];
+        let valid = true;
+        fields.forEach(id => {
+          const input = document.getElementById(id);
+          if (!input.value.trim()) {
+            input.style.borderColor = '#7A3B4E';
+            valid = false;
+          } else {
+            input.style.borderColor = '';
+          }
+        });
+
+        if (!valid) {
+          this.showToast('Please fill all shipping details');
+          return;
+        }
+
+        // Generate order
+        const orderNum = 'BYOU-' + Date.now().toString().slice(-8);
+        const subtotal = this.getCartSubtotal();
+        const shipping = this.getShippingCost(subtotal);
+        const discount = this.getDiscount(subtotal);
+        const total = subtotal - discount + shipping;
+        const cart = this.getCart();
+        const itemCount = cart.reduce((s, i) => s + i.qty, 0);
+        const paymentMethod = document.querySelector('.payment-method.selected')?.dataset.method || 'cod';
+        const paymentLabels = { cod: 'Cash on Delivery', upi: 'UPI', card: 'Credit / Debit Card' };
+
+        // Delivery date (5-7 days from now)
+        const deliveryDate = new Date();
+        deliveryDate.setDate(deliveryDate.getDate() + 5 + Math.floor(Math.random() * 3));
+        const deliveryStr = deliveryDate.toLocaleDateString('en-IN', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+
+        const today = new Date().toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' });
+
+        // Render success page
+        document.getElementById('order-success-content').innerHTML = `
+          <div class="order-success__check">
+            <div class="order-success__check-circle">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/>
+              </svg>
+            </div>
+            <div class="order-success__check-ring"></div>
+          </div>
+          <h2 class="order-success__title">Order Placed Successfully!</h2>
+          <p class="order-success__subtitle">Thank you for shopping with BYOU. We'll send you updates via email.</p>
+
+          <div class="order-details">
+            <div class="order-details__header">
+              <div class="order-details__order-id">Order <strong>#${orderNum}</strong></div>
+              <div class="order-details__date">${today}</div>
+            </div>
+            <div class="order-details__row">
+              <span class="order-details__row-label">Items</span>
+              <span class="order-details__row-value">${itemCount} item${itemCount > 1 ? 's' : ''}</span>
+            </div>
+            <div class="order-details__row">
+              <span class="order-details__row-label">Payment</span>
+              <span class="order-details__row-value">${paymentLabels[paymentMethod]}</span>
+            </div>
+            <div class="order-details__row">
+              <span class="order-details__row-label">Subtotal</span>
+              <span class="order-details__row-value">${this.formatPrice(subtotal)}</span>
+            </div>
+            ${discount > 0 ? `
+            <div class="order-details__row">
+              <span class="order-details__row-label">Discount</span>
+              <span class="order-details__row-value" style="color:var(--color-mulberry)">-${this.formatPrice(discount)}</span>
+            </div>` : ''}
+            <div class="order-details__row">
+              <span class="order-details__row-label">Shipping</span>
+              <span class="order-details__row-value">${shipping === 0 ? 'FREE' : this.formatPrice(shipping)}</span>
+            </div>
+            <div class="order-details__row order-details__row--total">
+              <span class="order-details__row-label">Total Paid</span>
+              <span class="order-details__row-value">${this.formatPrice(total)}</span>
+            </div>
+            <div class="order-details__delivery">
+              <div class="order-details__delivery-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12"/>
+                </svg>
+              </div>
+              <div class="order-details__delivery-info">
+                <strong>Estimated Delivery</strong>
+                ${deliveryStr}
+              </div>
+            </div>
+          </div>
+
+          <button class="order-success__cta" onclick="BYOU.returnToShop()">
+            <span>Continue Shopping</span>
+          </button>`;
+
+        // Clear cart
+        sessionStorage.removeItem('byou_cart');
+        this.discountApplied = false;
+        this.updateCartCount();
+
+        // Navigate to success
+        this.navigateTo('success');
+
+        // Launch confetti
+        this.launchConfetti();
+      },
+
+      returnToShop() {
+        // Clear checkout form
+        ['checkout-fname', 'checkout-lname', 'checkout-phone', 'checkout-address', 'checkout-city', 'checkout-state', 'checkout-pincode'].forEach(id => {
+          const el = document.getElementById(id);
+          if (el) el.value = '';
+        });
+        this.navigateTo('home');
+      },
+
+      // ---------- CONFETTI ----------
+      launchConfetti() {
+        const container = document.createElement('div');
+        container.className = 'confetti-container';
+        document.body.appendChild(container);
+
+        const colors = ['#C4956A', '#D4A0A0', '#A8B5A0', '#E8D8C4', '#7A3B4E', '#E8D5C0'];
+        for (let i = 0; i < 60; i++) {
+          const particle = document.createElement('div');
+          particle.className = 'confetti';
+          particle.style.left = Math.random() * 100 + '%';
+          particle.style.top = -10 + 'px';
+          particle.style.background = colors[Math.floor(Math.random() * colors.length)];
+          particle.style.width = (6 + Math.random() * 8) + 'px';
+          particle.style.height = (6 + Math.random() * 8) + 'px';
+          particle.style.borderRadius = Math.random() > 0.5 ? '50%' : '2px';
+          particle.style.animationDelay = (Math.random() * 1.5) + 's';
+          particle.style.animationDuration = (2 + Math.random() * 2) + 's';
+          container.appendChild(particle);
+        }
+
+        setTimeout(() => container.remove(), 5000);
+      },
+
+      // ---------- TOAST ----------
+      showToast(message) {
+        const toast = document.getElementById('toast');
+        document.getElementById('toast-message').textContent = message;
+        toast.classList.add('show');
+        clearTimeout(this._toastTimer);
+        this._toastTimer = setTimeout(() => toast.classList.remove('show'), 3000);
+      }
+    };
+
+    // Make BYOU globally accessible for inline onclick handlers
+    window.BYOU = BYOU;
+
+
+    // ============================
+    // EVENT LISTENERS
+    // ============================
+
+    // Sticky header shadow on scroll
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // Scroll-reveal animation using IntersectionObserver
+    const revealElements = document.querySelectorAll('.reveal');
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.15,
+      rootMargin: '0px 0px -60px 0px'
+    });
+    revealElements.forEach(el => revealObserver.observe(el));
+
+    // Smooth scroll for anchor links (only on homepage)
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        const targetId = this.getAttribute('href');
+        if (targetId === '#') return;
+        if (BYOU.currentView !== 'home') return;
+        e.preventDefault();
+        const target = document.querySelector(targetId);
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+
+    // Newsletter form interaction
+    const newsletterForm = document.getElementById('newsletter-form');
+    const newsletterBtn = document.getElementById('newsletter-submit');
+    newsletterForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      const email = document.getElementById('newsletter-email').value;
+      if (email) {
+        newsletterBtn.textContent = 'Subscribed ✓';
+        newsletterBtn.style.background = '#A8B5A0';
+        document.getElementById('newsletter-email').value = '';
+        setTimeout(() => {
+          newsletterBtn.textContent = 'Subscribe';
+          newsletterBtn.style.background = '';
+        }, 3000);
+      }
+    });
+
+    // Mobile menu toggle
+    const menuToggle = document.getElementById('menu-toggle');
+    const mainNav = document.getElementById('main-nav');
+    menuToggle.addEventListener('click', () => {
+      mainNav.style.display = mainNav.style.display === 'flex' ? 'none' : 'flex';
+      mainNav.style.position = 'absolute';
+      mainNav.style.top = '100%';
+      mainNav.style.left = '0';
+      mainNav.style.right = '0';
+      mainNav.style.flexDirection = 'column';
+      mainNav.style.background = 'rgba(253, 248, 244, 0.98)';
+      mainNav.style.padding = '1.5rem';
+      mainNav.style.gap = '1rem';
+      mainNav.style.borderTop = '1px solid #E8DDD4';
+      mainNav.style.backdropFilter = 'blur(20px)';
+    });
+
+    // Account button
+    document.getElementById('account-btn').addEventListener('click', (e) => {
+      e.stopPropagation();
+      if (BYOU.isLoggedIn()) {
+        BYOU.toggleUserDropdown();
+      } else {
+        BYOU.openLoginModal();
+      }
+    });
+
+    // Cart button
+    document.getElementById('cart-btn').addEventListener('click', () => {
+      BYOU.navigateTo('cart');
+    });
+
+    // Login form
+    document.getElementById('login-form').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const username = document.getElementById('login-username').value.trim();
+      const password = document.getElementById('login-password').value.trim();
+
+      if (!BYOU.login(username, password)) {
+        document.getElementById('login-error').textContent = '✕ Invalid username or password';
+        document.getElementById('login-username').classList.add('error');
+        document.getElementById('login-password').classList.add('error');
+        // Shake animation
+        const modal = document.querySelector('.login-modal');
+        modal.style.animation = 'none';
+        modal.offsetHeight; // trigger reflow
+        modal.style.animation = 'shake 0.4s ease';
+      }
+    });
+
+    // Close login modal
+    document.getElementById('login-close').addEventListener('click', () => {
+      BYOU.closeLoginModal();
+    });
+
+    document.getElementById('login-overlay').addEventListener('click', (e) => {
+      if (e.target === e.currentTarget) BYOU.closeLoginModal();
+    });
+
+    // Quick Add buttons
+    document.querySelectorAll('.product-card__quick-add').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const productId = parseInt(btn.dataset.productId);
+        BYOU.addToCart(productId);
+      });
+    });
+
+    // Close dropdown when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('#account-btn')) {
+        BYOU.closeUserDropdown();
+      }
+    });
+
+    // Logo click -> home
+    document.getElementById('logo').addEventListener('click', (e) => {
+      e.preventDefault();
+      BYOU.navigateTo('home');
+    });
+
+    // Keyboard: Escape closes modals
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        BYOU.closeLoginModal();
+        BYOU.closeUserDropdown();
+      }
+    });
+
+    // Add shake keyframe dynamically
+    const shakeStyle = document.createElement('style');
+    shakeStyle.textContent = `
+      @keyframes shake {
+        0%, 100% { transform: translateX(0); }
+        20% { transform: translateX(-8px); }
+        40% { transform: translateX(8px); }
+        60% { transform: translateX(-4px); }
+        80% { transform: translateX(4px); }
+      }`;
+    document.head.appendChild(shakeStyle);
+
+
+    // ============================
+    // INIT
+    // ============================
+    BYOU.updateAuthUI();
+    BYOU.updateCartCount();
+
+  })();
+  </script>
+
+</body>
+</html>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__tag">Autumn Collection 2026</span>
+      <h1 class="hero__title">Embrace Your <em>Natural</em> Beauty</h1>
+      <p class="hero__subtitle">Luxuriously soft intimate apparel crafted for everyday confidence. Designed to feel like a second skin.</p>
+      <div class="hero__cta-group">
+        <a href="#featured" class="btn btn--primary" id="hero-cta-primary">
+          <span>Shop Collection</span>
+        </a>
+        <a href="#editorial" class="btn btn--ghost" id="hero-cta-secondary">
+          Our Story <span class="btn-arrow">→</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========== CATEGORIES ========== -->
+  <section class="categories" id="categories">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Shop by Category</p>
+        <h2 class="section-title">Curated for You</h2>
+        <p class="section-subtitle">Discover our thoughtfully designed collections, from everyday essentials to luxurious sleepwear.</p>
+      </div>
+
+      <div class="categories__grid">
+        <!-- Category: Bras -->
+        <a href="#" class="category-card reveal reveal-delay-1" id="category-bras">
+          <img src="images/category-bras.jpg" alt="Bras collection" class="category-card__image">
+          <div class="category-card__overlay"></div>
+          <div class="category-card__content">
+            <h3 class="category-card__title">Bras</h3>
+            <span class="category-card__count">24 styles</span>
+          </div>
+          <div class="category-card__arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"/>
+            </svg>
+          </div>
+        </a>
+
+        <!-- Category: Panties -->
+        <a href="#" class="category-card reveal reveal-delay-2" id="category-panties">
+          <img src="images/category-panties.jpg" alt="Panties collection" class="category-card__image">
+          <div class="category-card__overlay"></div>
+          <div class="category-card__content">
+            <h3 class="category-card__title">Panties</h3>
+            <span class="category-card__count">36 styles</span>
+          </div>
+          <div class="category-card__arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"/>
+            </svg>
+          </div>
+        </a>
+
+        <!-- Category: Sets -->
+        <a href="#" class="category-card reveal reveal-delay-3" id="category-sets">
+          <img src="images/category-sets.jpg" alt="Matching sets collection" class="category-card__image">
+          <div class="category-card__overlay"></div>
+          <div class="category-card__content">
+            <h3 class="category-card__title">Sets</h3>
+            <span class="category-card__count">18 styles</span>
+          </div>
+          <div class="category-card__arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"/>
+            </svg>
+          </div>
+        </a>
+
+        <!-- Category: Sleepwear -->
+        <a href="#" class="category-card reveal reveal-delay-4" id="category-sleepwear">
+          <img src="images/category-sleepwear.jpg" alt="Sleepwear collection" class="category-card__image">
+          <div class="category-card__overlay"></div>
+          <div class="category-card__content">
+            <h3 class="category-card__title">Sleepwear</h3>
+            <span class="category-card__count">12 styles</span>
+          </div>
+          <div class="category-card__arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"/>
+            </svg>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========== FEATURED PRODUCTS ========== -->
+  <section class="featured" id="featured">
+    <div class="container">
+      <div class="featured__header reveal">
+        <div class="section-header">
+          <p class="section-eyebrow">Bestsellers</p>
+          <h2 class="section-title">Most Loved Styles</h2>
+        </div>
+        <a href="#" class="btn btn--ghost" id="view-all-btn">View All <span class="btn-arrow">→</span></a>
+      </div>
+
+      <div class="products__grid">
+        <!-- Product 1: Wireless Bralette -->
+        <div class="product-card reveal reveal-delay-1" id="product-1">
+          <div class="product-card__image-wrapper">
+            <img src="images/product-bralette.jpg" alt="Cloud-Soft Wireless Bralette in blush pink" class="product-card__image" loading="lazy">
+            <span class="product-card__badge product-card__badge--bestseller">Bestseller</span>
+            <button class="product-card__wishlist" aria-label="Add to wishlist">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"/>
+              </svg>
+            </button>
+            <div class="product-card__quick-add">+ Quick Add</div>
+          </div>
+          <div class="product-card__info">
+            <h3 class="product-card__name">Cloud-Soft Wireless Bralette</h3>
+            <p class="product-card__category">Everyday Comfort</p>
+            <div class="product-card__price-row">
+              <span class="product-card__price">₹1,299</span>
+            </div>
+            <div class="product-card__colors">
+              <span class="product-card__color-swatch" style="background: #D4A0A0;" title="Blush"></span>
+              <span class="product-card__color-swatch" style="background: #E8D8C4;" title="Champagne"></span>
+              <span class="product-card__color-swatch" style="background: #2C1810;" title="Espresso"></span>
+              <span class="product-card__color-swatch" style="background: #A8B5A0;" title="Sage"></span>
+            </div>
+            <div class="product-card__rating">
+              <span class="product-card__stars">★★★★★</span>
+              <span>(342)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2: Lace Underwire -->
+        <div class="product-card reveal reveal-delay-2" id="product-2">
+          <div class="product-card__image-wrapper">
+            <img src="images/product-underwire.jpg" alt="Étoile Lace Underwire Bra in champagne gold" class="product-card__image" loading="lazy">
+            <span class="product-card__badge product-card__badge--new">New</span>
+            <button class="product-card__wishlist" aria-label="Add to wishlist">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"/>
+              </svg>
+            </button>
+            <div class="product-card__quick-add">+ Quick Add</div>
+          </div>
+          <div class="product-card__info">
+            <h3 class="product-card__name">Étoile Lace Underwire</h3>
+            <p class="product-card__category">Elegant Support</p>
+            <div class="product-card__price-row">
+              <span class="product-card__price">₹1,899</span>
+            </div>
+            <div class="product-card__colors">
+              <span class="product-card__color-swatch" style="background: #E8D8C4;" title="Champagne"></span>
+              <span class="product-card__color-swatch" style="background: #D4A0A0;" title="Rose"></span>
+              <span class="product-card__color-swatch" style="background: #1A1A1A;" title="Noir"></span>
+            </div>
+            <div class="product-card__rating">
+              <span class="product-card__stars">★★★★★</span>
+              <span>(128)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3: Seamless Hipster -->
+        <div class="product-card reveal reveal-delay-3" id="product-3">
+          <div class="product-card__image-wrapper">
+            <img src="images/product-hipster.jpg" alt="Seamless Hipster 3-Pack in nude, blush, and sage" class="product-card__image" loading="lazy">
+            <span class="product-card__badge product-card__badge--sale">-25%</span>
+            <button class="product-card__wishlist" aria-label="Add to wishlist">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"/>
+              </svg>
+            </button>
+            <div class="product-card__quick-add">+ Quick Add</div>
+          </div>
+          <div class="product-card__info">
+            <h3 class="product-card__name">Seamless Hipster 3-Pack</h3>
+            <p class="product-card__category">Everyday Essentials</p>
+            <div class="product-card__price-row">
+              <span class="product-card__price">₹899</span>
+              <span class="product-card__price--original">₹1,199</span>
+            </div>
+            <div class="product-card__colors">
+              <span class="product-card__color-swatch" style="background: #E8D8C4;" title="Nude"></span>
+              <span class="product-card__color-swatch" style="background: #D4A0A0;" title="Blush"></span>
+              <span class="product-card__color-swatch" style="background: #A8B5A0;" title="Sage"></span>
+            </div>
+            <div class="product-card__rating">
+              <span class="product-card__stars">★★★★☆</span>
+              <span>(256)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 4: Silk Slip Dress -->
+        <div class="product-card reveal reveal-delay-4" id="product-4">
+          <div class="product-card__image-wrapper">
+            <img src="images/product-slip-dress.jpg" alt="Velvet Dusk Silk Slip Dress in mulberry" class="product-card__image" loading="lazy">
+            <span class="product-card__badge product-card__badge--new">New</span>
+            <button class="product-card__wishlist" aria-label="Add to wishlist">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"/>
+              </svg>
+            </button>
+            <div class="product-card__quick-add">+ Quick Add</div>
+          </div>
+          <div class="product-card__info">
+            <h3 class="product-card__name">Velvet Dusk Silk Slip</h3>
+            <p class="product-card__category">Luxe Sleepwear</p>
+            <div class="product-card__price-row">
+              <span class="product-card__price">₹2,499</span>
+            </div>
+            <div class="product-card__colors">
+              <span class="product-card__color-swatch" style="background: #7A3B4E;" title="Mulberry"></span>
+              <span class="product-card__color-swatch" style="background: #1A1A1A;" title="Noir"></span>
+              <span class="product-card__color-swatch" style="background: #E8D8C4;" title="Champagne"></span>
+            </div>
+            <div class="product-card__rating">
+              <span class="product-card__stars">★★★★★</span>
+              <span>(89)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========== VALUE PROPOSITIONS ========== -->
+  <section class="values-strip" id="values">
+    <div class="container">
+      <div class="values-strip__grid">
+        <!-- Value 1 -->
+        <div class="value-item reveal reveal-delay-1" id="value-shipping">
+          <div class="value-item__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12"/>
+            </svg>
+          </div>
+          <h3 class="value-item__title">Free Shipping</h3>
+          <p class="value-item__desc">On all orders above ₹1,499</p>
+        </div>
+
+        <!-- Value 2 -->
+        <div class="value-item reveal reveal-delay-2" id="value-returns">
+          <div class="value-item__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182"/>
+            </svg>
+          </div>
+          <h3 class="value-item__title">Easy Returns</h3>
+          <p class="value-item__desc">30-day hassle-free returns</p>
+        </div>
+
+        <!-- Value 3 -->
+        <div class="value-item reveal reveal-delay-3" id="value-sustainable">
+          <div class="value-item__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12.75 3.03v.568c0 .334.148.65.405.864l1.068.89c.442.369.535 1.01.216 1.49l-.51.766a2.25 2.25 0 01-1.161.886l-.143.048a1.107 1.107 0 00-.57 1.664c.369.555.169 1.307-.427 1.605L9 13.125l.423 1.059a.956.956 0 01-1.652.928l-.679-.906a1.125 1.125 0 00-1.906.172L4.5 15.75l-.612.153M12.75 3.031a9 9 0 10-8.862 12.872M12.75 3.031a9 9 0 016.69 14.036m0 0l-.177-.529A2.25 2.25 0 0017.128 15H16.5l-.324-.324a1.453 1.453 0 00-2.328.377l-.036.073a1.586 1.586 0 01-.982.816l-.99.282c-.55.157-.894.702-.8 1.267l.073.438c.08.474.49.821.97.821.846 0 1.598.542 1.865 1.345l.215.643m5.276-3.67a9.012 9.012 0 01-5.276 3.67m0 0a9 9 0 01-10.275-4.835M15.75 9c0 .896-.393 1.7-1.016 2.25"/>
+            </svg>
+          </div>
+          <h3 class="value-item__title">Sustainable</h3>
+          <p class="value-item__desc">Eco-friendly fabrics & packaging</p>
+        </div>
+
+        <!-- Value 4 -->
+        <div class="value-item reveal reveal-delay-4" id="value-quality">
+          <div class="value-item__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z"/>
+            </svg>
+          </div>
+          <h3 class="value-item__title">Premium Quality</h3>
+          <p class="value-item__desc">Crafted with love & care</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========== EDITORIAL / BRAND STORY ========== -->
+  <section class="editorial" id="editorial">
+    <div class="container">
+      <div class="editorial__inner">
+        <!-- Image -->
+        <div class="editorial__image-wrapper reveal">
+          <img src="images/category-sets.jpg" alt="BYOU brand story — champagne silk lingerie set" loading="lazy">
+          <div class="editorial__image-accent"></div>
+        </div>
+
+        <!-- Content -->
+        <div class="editorial__content reveal reveal-delay-2">
+          <span class="editorial__tag">Our Philosophy</span>
+          <h2 class="editorial__title">Designed for the <em>Real</em> You</h2>
+          <p class="editorial__text">
+            At BYOU, we believe that true beauty starts with comfort. Every piece in our collection is thoughtfully designed using premium, sustainably sourced fabrics that feel like a second skin. No itchy tags, no uncomfortable wires — just pure, luxurious softness.
+          </p>
+
+          <div class="editorial__features">
+            <div class="editorial__feature">
+              <svg class="editorial__feature-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.5 12.75l6 6 9-13.5"/>
+              </svg>
+              <span class="editorial__feature-text">OEKO-TEX® Certified</span>
+            </div>
+            <div class="editorial__feature">
+              <svg class="editorial__feature-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.5 12.75l6 6 9-13.5"/>
+              </svg>
+              <span class="editorial__feature-text">Inclusive Size Range</span>
+            </div>
+            <div class="editorial__feature">
+              <svg class="editorial__feature-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.5 12.75l6 6 9-13.5"/>
+              </svg>
+              <span class="editorial__feature-text">Tag-Free Comfort</span>
+            </div>
+            <div class="editorial__feature">
+              <svg class="editorial__feature-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.5 12.75l6 6 9-13.5"/>
+              </svg>
+              <span class="editorial__feature-text">Recyclable Packaging</span>
+            </div>
+          </div>
+
+          <a href="#" class="btn btn--outline" id="editorial-cta">
+            <span>Learn More</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========== TESTIMONIALS ========== -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Reviews</p>
+        <h2 class="section-title">What Our Customers Say</h2>
+        <p class="section-subtitle">Real stories from real women who found their perfect fit.</p>
+      </div>
+
+      <div class="testimonials__grid">
+        <!-- Testimonial 1 -->
+        <div class="testimonial-card reveal reveal-delay-1" id="testimonial-1">
+          <span class="testimonial-card__quote-mark">"</span>
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__text">
+            "I've never worn a bralette this comfortable. It honestly feels like I'm wearing nothing. The fabric is incredibly soft and the fit is absolutely perfect."
+          </p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">P</div>
+            <div class="testimonial-card__author-info">
+              <span class="testimonial-card__author-name">Priya M.</span>
+              <span class="testimonial-card__author-detail">Cloud-Soft Wireless Bralette</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="testimonial-card reveal reveal-delay-2" id="testimonial-2">
+          <span class="testimonial-card__quote-mark">"</span>
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__text">
+            "Finally, a brand that understands that elegance and comfort aren't mutually exclusive. The Étoile Lace set is stunning and stays in place all day long."
+          </p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">A</div>
+            <div class="testimonial-card__author-info">
+              <span class="testimonial-card__author-name">Ananya R.</span>
+              <span class="testimonial-card__author-detail">Étoile Lace Set</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="testimonial-card reveal reveal-delay-3" id="testimonial-3">
+          <span class="testimonial-card__quote-mark">"</span>
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__text">
+            "The silk slip dress is everything. I wear it to sleep, to lounge, and honestly, it's so gorgeous I would wear it out. Worth every rupee!"
+          </p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">S</div>
+            <div class="testimonial-card__author-info">
+              <span class="testimonial-card__author-name">Sneha K.</span>
+              <span class="testimonial-card__author-detail">Velvet Dusk Silk Slip</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========== NEWSLETTER ========== -->
+  <section class="newsletter" id="newsletter">
+    <div class="container">
+      <div class="newsletter__inner reveal">
+        <p class="section-eyebrow">Stay Connected</p>
+        <h2 class="section-title">Join the BYOU Family</h2>
+        <p class="section-subtitle">Subscribe for exclusive early access, styling tips, and 15% off your first order.</p>
+        <form class="newsletter__form" id="newsletter-form" onsubmit="return false;">
+          <input type="email" class="newsletter__input" id="newsletter-email" placeholder="Enter your email address" aria-label="Email address" required>
+          <button type="submit" class="newsletter__btn" id="newsletter-submit">Subscribe</button>
+        </form>
+        <p class="newsletter__terms">By subscribing, you agree to our Privacy Policy. Unsubscribe anytime.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <!-- Brand Column -->
+        <div class="footer__col">
+          <a href="#" class="footer__logo">BYOU</a>
+          <p class="footer__brand-desc">
+            Premium intimate apparel designed for everyday confidence. Sustainably crafted, luxuriously soft.
+          </p>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link" aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <rect x="2" y="2" width="20" height="20" rx="5"/>
+                <circle cx="12" cy="12" r="5"/>
+                <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/>
+              </svg>
+            </a>
+            <a href="#" class="footer__social-link" aria-label="Pinterest">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M8 21c1-3 1.5-5 2-7.5.5-2 1-3.5 2-3.5s2 1.5 2 3-1 3-1 4.5.5 2.5 2 2.5c3 0 4-3.5 4-6.5 0-4-3-6.5-7-6.5-4.5 0-7.5 3-7.5 7 0 1.5.5 3 1.5 3.5"/>
+              </svg>
+            </a>
+            <a href="#" class="footer__social-link" aria-label="Twitter">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M4 4l11.733 16h4.267l-11.733-16zM4 20l6.768-8M20 4l-6.768 8"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Shop Column -->
+        <div class="footer__col">
+          <h4 class="footer__heading">Shop</h4>
+          <ul class="footer__links">
+            <li><a href="#" class="footer__link">New Arrivals</a></li>
+            <li><a href="#" class="footer__link">Bras</a></li>
+            <li><a href="#" class="footer__link">Panties</a></li>
+            <li><a href="#" class="footer__link">Sets</a></li>
+            <li><a href="#" class="footer__link">Sleepwear</a></li>
+            <li><a href="#" class="footer__link">Sale</a></li>
+          </ul>
+        </div>
+
+        <!-- Help Column -->
+        <div class="footer__col">
+          <h4 class="footer__heading">Help</h4>
+          <ul class="footer__links">
+            <li><a href="#" class="footer__link">Size Guide</a></li>
+            <li><a href="#" class="footer__link">Shipping Info</a></li>
+            <li><a href="#" class="footer__link">Returns & Exchanges</a></li>
+            <li><a href="#" class="footer__link">FAQ</a></li>
+            <li><a href="#" class="footer__link">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- About Column -->
+        <div class="footer__col">
+          <h4 class="footer__heading">About</h4>
+          <ul class="footer__links">
+            <li><a href="#" class="footer__link">Our Story</a></li>
+            <li><a href="#" class="footer__link">Sustainability</a></li>
+            <li><a href="#" class="footer__link">Careers</a></li>
+            <li><a href="#" class="footer__link">Privacy Policy</a></li>
+            <li><a href="#" class="footer__link">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <span>© 2026 BYOU Intimate Apparel. All rights reserved.</span>
+        <div class="footer__payment-icons">
+          <span class="footer__payment-icon">Visa</span>
+          <span class="footer__payment-icon">Mastercard</span>
+          <span class="footer__payment-icon">UPI</span>
+          <span class="footer__payment-icon">PayPal</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ========== JAVASCRIPT ========== -->
+  <script>
+    // Sticky header shadow on scroll
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // Scroll-reveal animation using IntersectionObserver
+    const revealElements = document.querySelectorAll('.reveal');
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.15,
+      rootMargin: '0px 0px -60px 0px'
+    });
+    revealElements.forEach(el => revealObserver.observe(el));
+
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        const targetId = this.getAttribute('href');
+        if (targetId === '#') return;
+        e.preventDefault();
+        const target = document.querySelector(targetId);
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+
+    // Newsletter form interaction
+    const newsletterForm = document.getElementById('newsletter-form');
+    const newsletterBtn = document.getElementById('newsletter-submit');
+    newsletterForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      const email = document.getElementById('newsletter-email').value;
+      if (email) {
+        newsletterBtn.textContent = 'Subscribed ✓';
+        newsletterBtn.style.background = '#A8B5A0';
+        document.getElementById('newsletter-email').value = '';
+        setTimeout(() => {
+          newsletterBtn.textContent = 'Subscribe';
+          newsletterBtn.style.background = '';
+        }, 3000);
+      }
+    });
+
+    // Mobile menu toggle
+    const menuToggle = document.getElementById('menu-toggle');
+    const mainNav = document.getElementById('main-nav');
+    menuToggle.addEventListener('click', () => {
+      mainNav.style.display = mainNav.style.display === 'flex' ? 'none' : 'flex';
+      mainNav.style.position = 'absolute';
+      mainNav.style.top = '100%';
+      mainNav.style.left = '0';
+      mainNav.style.right = '0';
+      mainNav.style.flexDirection = 'column';
+      mainNav.style.background = 'rgba(253, 248, 244, 0.98)';
+      mainNav.style.padding = '1.5rem';
+      mainNav.style.gap = '1rem';
+      mainNav.style.borderTop = '1px solid #E8DDD4';
+      mainNav.style.backdropFilter = 'blur(20px)';
+    });
+  </script>
+
+</body>
+</html>
